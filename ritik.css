@@ -1,1 +1,196 @@
+tml{
+    background-color: azure;
 
+}
+
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+.logo{
+    font-size: 3rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    display: inline;
+    padding: 0.2rem;
+}
+
+.online-status{
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 1rem;
+}
+.bb{
+    border-radius: 11px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 40px #9b9b9b,
+                 -20px -20px 40px #ffffff;
+}
+.bb{
+    border-radius: 11px;
+    background: #e0e0e0;
+    box-shadow:  0px 20px 40px #7b8686,
+                 20px 20px 40px #ffffff;
+}
+
+
+.mainmenu{
+    display: inline-block;
+    margin-left: 60vw;
+    text-align: right;
+}
+
+ul{
+    display: inline;
+
+}
+li{
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+
+nav{
+    border-radius: 0px;
+background: #e0e0e0;
+box-shadow:  20px 20px 40px #9b9b9b,
+             -20px -20px 40px #ffffff;;
+}
+
+.boxx{
+    border: black 2px solid;
+    margin: 2px;
+    height: 80vh;
+    box-shadow: 2px 2px 2px ;
+
+
+}
+
+.one{
+    width: 25vw;
+}
+
+.two{
+    width: 50vw;
+
+}
+.three{
+    width: 25vw;
+    padding: 2px ;
+
+}
+.maindash{
+    display: flex;
+    width: 100%;
+}
+
+.on-frnd{
+    height: 0.7rem;
+    display: inline-block;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    
+    
+}
+
+.frnd{
+    height: 2.4rem;
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+    margin-bottom: 0.5rem;
+    
+}
+
+
+.chat-box{
+    height: 30%;
+}
+
+
+.message-box{
+   margin-top: 2px;
+
+   height: max-content;
+}
+
+
+@media only screen and (max-width: 600px) {
+.mainmenu{
+        display: none;
+    }
+
+
+.two{
+    width: 100vw;
+}
+.one{
+ display: none;
+}
+.three{
+    display: none;
+}    
+}
+
+@media only screen and (max-width: 768px) {
+
+    .mainmenu{
+        display: none;
+    }
+
+
+.two{
+    width: 100vw;
+}
+.one{
+ display: none;
+}
+.three{
+    width: 25vw;
+}
+
+
+}
+
+@media only screen and (max-width: 992px) {
+
+
+    .mainmenu{
+        display: none;
+    }
+
+
+.two{
+    width: 100vw;
+}
+.one{
+ display: none;
+}
+.three{
+    width: 25vw;
+}
+
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .mainmenu{
+        display: none;
+    }
+
+
+.two{
+    width: 100vw;
+}
+.one{
+ display: none;
+}
+.three{
+    width: 25vw;
+}
+
+
+}
