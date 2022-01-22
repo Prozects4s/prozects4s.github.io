@@ -1,0 +1,262 @@
+html{
+    background-color: azure;
+
+}
+
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+.logo{
+    font-size: 3rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    display: inline;
+    padding: 0.2rem;
+}
+
+.online-status{
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 1rem;
+}
+
+.bb{
+    border-radius: 11px;
+    background: #e0e0e0;
+    box-shadow:  0px 20px 40px #7b8686,
+                 20px 20px 40px #ffffff;
+}
+
+
+.mainmenu{
+    display: inline-block;
+    margin-left: 60vw;
+    text-align: right;
+}
+
+ul{
+    display: inline;
+    width: 100%;
+    list-style: none;
+    
+
+}
+.react-post{
+    width: 100%;
+    background-color: palegreen;
+    width: 98%;
+    border-radius: 1rem;
+    margin: 0.2rem auto;
+}
+.react-post ul li{
+    display: inline;
+    justify-content: space-around;
+
+
+}
+.post{
+    margin: 0.3rem;
+    border: 3px double grey;
+}
+.post-follow-icon{
+    display: inline;
+    margin-left: 1rem;
+
+    /* padding: auto 1.9rem; */
+    /* margin-right: 1rem; */
+    
+
+}
+.fab,.fas{
+    color: olivedrab;
+}
+.react-post ul{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    padding: 0.5rem 1.5rem;
+}
+
+.mainmenu ul li{
+    display: inline-block;
+    margin-left: 0.5rem;
+    justify-content: space-between;
+}
+
+nav{
+    border-radius: 0px;
+background: #e0e0e0;
+box-shadow:  20px 20px 40px #9b9b9b,
+             -20px -20px 40px #ffffff;;
+}
+
+.boxx{
+    border: black 2px solid;
+    margin: 2px;
+    height: 80vh;
+    box-shadow: 2px 2px 2px ;
+
+
+}
+
+.one{
+    width: 25vw;
+}
+
+.two{
+    width: 50vw;
+    overflow-y: scroll;
+
+}
+.three{
+    width: 25vw;
+    padding: 2px ;
+
+}
+.maindash{
+    display: flex;
+    width: 100%;
+}
+
+.on-frnd li i{
+   justify-content: space-evenly;
+   display: inline;
+   width: 100%;
+}
+.on-frnd li{
+
+    display: inline;
+  
+ }
+
+
+.frnd{
+    height: 2.4rem;
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+    margin-bottom: 0.5rem;
+    
+}
+
+
+.chat-box{
+    height: 30%;
+}
+
+
+.message-box{
+   margin-top: 2px;
+
+   height: max-content;
+}
+.post-nav{
+    margin-top: 0.2rem;
+    box-shadow:  0px 20px 60px #7b8686,
+                 20px 20px 40px #ffffff;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+
+.pf-name{
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+    
+
+}
+
+.pf-img{
+    margin-left: 1rem;
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 10rem;
+    display: inline-block;
+    border: 2px solid white;
+  }
+  
+.post-img{
+    width: 98%;
+margin: 0.5rem auto;
+}
+@media only screen and (max-width: 600px) {
+.mainmenu{
+        display: none;
+    }
+
+
+.two{
+    width: 100vw;
+}
+.one{
+ display: none;
+}
+.three{
+    display: none;
+}    
+}
+
+@media only screen and (max-width: 768px) {
+
+    .mainmenu{
+        display: none;
+    }
+
+
+.two{
+    width: 100vw;
+}
+.one{
+ display: none;
+}
+.three{
+    width: 25vw;
+}
+
+
+}
+
+@media only screen and (max-width: 992px) {
+
+
+    .mainmenu{
+        display: none;
+    }
+
+
+.two{
+    width: 100vw;
+}
+.one{
+ display: none;
+}
+.three{
+    width: 25vw;
+}
+
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .mainmenu{
+        display: none;
+    }
+
+
+.two{
+    width: 100vw;
+}
+.one{
+ display: none;
+}
+.three{
+    width: 25vw;
+}
+
+
+}
