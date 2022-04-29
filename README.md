@@ -1,6 +1,6 @@
 # Hi there 👋
 ### I am Ritik Yadav
-### May be you are Manu, Siddu or Sumit
+### May be you are Manu and Sumit
 ### Our website front will be hosted here till development
 ## Is this Fine?
 <!--
